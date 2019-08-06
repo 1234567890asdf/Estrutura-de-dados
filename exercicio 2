@@ -1,0 +1,9 @@
+#include <stdio.h>
+#define TAMANHO 100 
+void main(){
+    char vetor[TAMANHO] = " Frase exemplo para a aula ";
+    int tamanho=strlen(vetor);
+    for(int A = tamanho -1; A > 0; A-- ){
+        printf("%c", vetor[A]);
+    }
+}
